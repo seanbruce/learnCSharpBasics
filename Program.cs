@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-string name = "sean";
+string myName = "sean";
 string language = "C#";
-Console.WriteLine($"{name} is learing a new programming language {language} which is awesome!");
+Console.WriteLine($"{myName} is learing a new programming language {language} which is awesome!");
 
 
 string stringWithSpace = "       Angular          ";
@@ -36,3 +36,35 @@ Console.WriteLine(mind);
 
 Console.WriteLine(Math.PI);
 
+Console.WriteLine("mac os");
+
+for(int i = 0; i < 10; i++)
+{
+    for(int j = 0; j < 10; j++)
+    {
+        Console.Write("*");
+    }
+    Console.WriteLine();
+}
+
+var names = new List<string> { "sean", "jobs", "elon", "bruce" };
+foreach (string name in names)
+{
+    Console.WriteLine($"Hello {name.ToUpper()}");
+}
+
+
+var fibonacciNumbers = new List<int>{1, 1};
+
+for (var i = 0; i < 18; i++)
+{
+    var lastOne = fibonacciNumbers[fibonacciNumbers.Count - 1];
+    var secondLast = fibonacciNumbers[fibonacciNumbers.Count - 2];
+
+    fibonacciNumbers.Add(lastOne + secondLast);
+}
+
+foreach(int num in fibonacciNumbers)
+{
+    Console.WriteLine(num);
+}
