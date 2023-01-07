@@ -15,7 +15,7 @@ namespace learnCSharpBasics
 
             int i = 27;
             // output `true`, because int32 implemented IFormattable interface
-            Console.WriteLine(i is System.IFormattable);
+            //Console.WriteLine(i is System.IFormattable);
 
             object iBoxed = i;
             Console.WriteLine(iBoxed is int);

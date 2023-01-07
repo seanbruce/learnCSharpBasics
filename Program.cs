@@ -1,4 +1,5 @@
 ﻿using learnCSharpBasics.LearnTypeSystem;
+using learnCSharpBasics.Generic;
 
 namespace learnCSharpBasics;
 
@@ -14,7 +15,9 @@ class Program
         //AsOperator.run();
         //CastExpression.run();
         //TypeOfOperator.run();
-        TypeSystem.run();
+        //TypeSystem.run();
+        //linqInC.run();
+        GenericConstrains.run();
     }
 
 }
