@@ -1,4 +1,6 @@
-﻿namespace learnCSharpBasics;
+﻿using learnCSharpBasics.LearnTypeSystem;
+
+namespace learnCSharpBasics;
 
 public class Base { }
 
@@ -11,7 +13,8 @@ class Program
         //IsOperator.run();
         //AsOperator.run();
         //CastExpression.run();
-        TypeOfOperator.run();
+        //TypeOfOperator.run();
+        TypeSystem.run();
     }
 
 }
