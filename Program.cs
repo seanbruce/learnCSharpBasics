@@ -18,7 +18,8 @@ class Program
         //TypeSystem.run();
         //linqInC.run();
         //GenericConstrains.run();
-        PatternMatching.run();
+        //PatternMatching.run();
+        ExceptionHandling.run();
     }
 
 }
