@@ -17,7 +17,8 @@ class Program
         //TypeOfOperator.run();
         //TypeSystem.run();
         //linqInC.run();
-        GenericConstrains.run();
+        //GenericConstrains.run();
+        PatternMatching.run();
     }
 
 }

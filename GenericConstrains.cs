@@ -13,7 +13,10 @@ namespace learnCSharpBasics.Generic
     }
 	class Student : Person
 	{
-		
+        public void doHomework()
+		{
+			Console.WriteLine($"{Name} is doing homework");
+		}
 	}
 
 	class Teacher : Person
