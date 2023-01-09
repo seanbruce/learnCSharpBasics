@@ -19,7 +19,8 @@ class Program
         //linqInC.run();
         //GenericConstrains.run();
         //PatternMatching.run();
-        ExceptionHandling.run();
+        //ExceptionHandling.run();
+        AttributeInCS.run();
     }
 
 }
