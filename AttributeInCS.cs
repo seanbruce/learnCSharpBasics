@@ -47,6 +47,7 @@ namespace learnCSharpBasics
         public static void run()
         {
             PrintAuthorInfo(typeof(Person));
+            Console.WriteLine(1);
         }
     }
 }
